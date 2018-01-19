@@ -221,9 +221,9 @@ parameters:
   name: AMQ_QUEUE_MEMORY_LIMIT
   value: ''
   required: false
-- displayName: Jboss BA args
+- displayName: Java opts append
   description: Decission central (or Business central) properties for configuration that is not include in environmnent variables.
-  name: JBOSS_BPMSUITE_ARGS
+  name: JAVA_OPTS_APPEND
   value: ''
   required: false
 objects:
@@ -591,8 +591,8 @@ objects:
             value: probe.eap.jolokia.EapProbe
           - name: PROBE_DISABLE_BOOT_ERRORS_CHECK
             value: 'true'
-          - name: JBOSS_BPMSUITE_ARGS
-            value: "${JBOSS_BPMSUITE_ARGS}"
+          - name: JAVA_OPTS_APPEND
+            value: "${JAVA_OPTS_APPEND}"
         volumes:
         - name: decisioncentral-keystore-volume
           secret:
