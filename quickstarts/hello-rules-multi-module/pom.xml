@@ -67,7 +67,6 @@
 
     <modules>
         <module>hellorules</module>
-        <module>hellorules-client</module>
         <module>hellorules-model</module>
     </modules>
 
