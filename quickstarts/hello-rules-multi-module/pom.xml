@@ -11,7 +11,7 @@
 
     <groupId>org.openshift.quickstarts</groupId>
     <artifactId>rhdm-kieserver-parent</artifactId>
-    <version>1.4.0-SNAPSHOT</version>
+    <version>1.4.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>OpenShift Quickstarts: RHDM Kie Server: Parent</name>
@@ -46,7 +46,7 @@
             <dependency>
                 <groupId>org.openshift.quickstarts</groupId>
                 <artifactId>rhdm-kieserver-hellorules-model</artifactId>
-                <version>1.4.0-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
